@@ -384,7 +384,7 @@ after all the transformations have been setup, we finally call</p>
 you can run this example as follows. You will first need to run Netcat
 (a small utility found in most Unix-like systems) as a data server by using</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>$ nc -lk <span class="m">9999</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>$ nc -lkp <span class="m">9999</span></code></pre></figure>
 
 <p>Then, in a different terminal, you can start the example by using</p>
 
@@ -415,7 +415,7 @@ screen every second. It will look something like the following.</p>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span><span class="c1"># TERMINAL 1:</span>
 <span class="c1"># Running Netcat</span>
 
-$ nc -lk <span class="m">9999</span>
+$ nc -lkp <span class="m">9999</span>
 
 hello world
 
